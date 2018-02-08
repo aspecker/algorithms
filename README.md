@@ -12,3 +12,9 @@
 * farmer returns across the river  S: G   E: F B
 * farmer takes the goose across the river, S:   E: F B G
 * Everyone is happy and intact
+
+### Write pseudocode how to print all multiples of 5 between 1 and 100
+* create a for loop that invokes numbers 1 to 100 (or user input)
+* use the remainder (%) function comparing i to 5
+* if i % 5 is equal to zero
+* output/add to array i
