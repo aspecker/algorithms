@@ -1,6 +1,5 @@
 # algorithms
 ## maintained by adam specker
-## last updated 2/5
 
 ### Farmer, fox, goose, bag of beans 
 * Farmer takes goose across the river S: F B   E: G
@@ -18,3 +17,9 @@
 * use the remainder (%) function comparing i to 5
 * if i % 5 is equal to zero
 * output/add to array i
+
+### Pseudocode a function that will read a given set of numbers then calculate and return the average
+* for loop to rotate through numbers in array
+* at each step of the loop at the number at index i to var sum
+* after loop is done, divide sum by array.length
+* output the result of previous calculation
