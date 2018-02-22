@@ -23,3 +23,32 @@
 * at each step of the loop at the number at index i to var sum
 * after loop is done, divide sum by array.length
 * output the result of previous calculation
+```
+        var numArray = [];
+        var sumAvg =  function (numArray){
+            var sum = 0;
+            var arrLength = numArray.length;
+            for (var i =0; i<arrLength;i++){
+                sum += numArray[i];
+            }
+            var avg = sum/arrLength;
+        $(".printHere").append("The average of "+numArray+" is "+avg+". <br>");
+        }
+```
+
+### Write a function that takes in a string and outputs the string in reverse
+```
+        $("#add-string").on("click", function() {
+            event.preventDefault();
+            var string = $("#string-input").val().trim();
+            var stringArr = string.split("");
+            console.log(stringArr);
+            var reverseArr = [];
+            for (var i=stringArr.length-1;i>=0;i--){
+                reverseArr.push(stringArr[i]);
+            }
+            console.log(reverseArr);
+            reverseString = reverseArr.join("");
+            $("#string-output").text(reverseString);
+      });
+ ```
