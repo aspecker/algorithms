@@ -42,14 +42,10 @@
         $("#add-string").on("click", function() {
             event.preventDefault();
             var string = $("#string-input").val().trim();
-            var stringArr = string.split("");
-            console.log(stringArr);
-            var reverseArr = [];
-            for (var i=stringArr.length-1;i>=0;i--){
-                reverseArr.push(stringArr[i]);
+            var reverseString = "";
+            for (var i=string.length-1;i>=0;i--){
+                reverseString +=string[i];
             }
-            console.log(reverseArr);
-            reverseString = reverseArr.join("");
             $("#string-output").text(reverseString);
       });
  ```
