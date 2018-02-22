@@ -34,6 +34,7 @@
             var avg = sum/arrLength;
         $(".printHere").append("The average of "+numArray+" is "+avg+". <br>");
         }
+        sumAvg ([3,6,7,9,5,2]);
 ```
 
 ### Write a function that takes in a string and outputs the string in reverse
